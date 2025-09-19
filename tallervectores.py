@@ -108,5 +108,6 @@ def menu_principal():
             print("Opcion no valida")
 
 
-if name == "main":
+if __name__ == "__main__":
     menu_principal()
+
